@@ -269,7 +269,7 @@ async function earthData() {
     let htmlT = document.createElement("p");
     htmlC.innerHTML = "Earth";
     img.src =
-      "https://static.wikia.nocookie.net/warframe/images/1/1e/Earth.png/revision/latest?cb=20161016212227";
+      "./docs/assets/images/earth.png";
     htmlS.innerHTML = state;
     htmlT.innerHTML = timeLeft;
     styleState(state, content, htmlC, htmlS, htmlT);
@@ -305,8 +305,7 @@ async function vallisData() {
     let htmlS = document.createElement("p");
     let htmlT = document.createElement("p");
     htmlC.innerHTML = "Orb Vallis";
-    img.src =
-      "https://static.wikia.nocookie.net/warframe/images/d/dd/Orb_Vallis.png/revision/latest?cb=20201004000545";
+    img.src = "./docs/assets/images/Orb_Vallis.png";
     htmlS.innerHTML = state;
     htmlT.innerHTML = timeLeft;
     styleState(state, content, htmlC, htmlS, htmlT);
@@ -342,8 +341,7 @@ async function cambionData() {
     let htmlS = document.createElement("p");
     let htmlT = document.createElement("p");
     htmlC.innerHTML = "Cambion Drift";
-    img.src =
-      "https://static.wikia.nocookie.net/warframe/images/e/e3/CambionDrift.jpg/revision/latest?cb=20200802220226";
+    img.src = "./docs/assets/images/CambionDrift.png";
     htmlS.innerHTML = state;
     htmlT.innerHTML = timeLeft;
     styleState(state, content, htmlC, htmlS, htmlT);
@@ -380,8 +378,7 @@ async function cetusData() {
     let htmlS = document.createElement("p");
     let htmlT = document.createElement("p");
     htmlC.innerHTML = "Plains of Eidolon";
-    img.src =
-      "https://static.wikia.nocookie.net/warframe/images/8/8f/Plains_of_Eidolon.png/revision/latest?cb=20201003074028";
+    img.src = "./docs/assets/images/Plains_of_Eidolon.png";
     htmlS.innerHTML = state;
     htmlT.innerHTML = timeLeft;
     styleState(state, content, htmlC, htmlS, htmlT);
