@@ -1,0 +1,58 @@
+.container-input, #container-main{
+    width: 100%;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    
+}
+#container-main{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#content{
+    width: 170px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid gray;
+    height: 237px;
+    border-radius: 25px;
+    margin: -10px 50px 50px 50px;
+    font-size: medium;
+   
+}
+
+h1{
+    text-align: center;
+}
+
+.container-input{
+    background-color: lightblue;
+    height: 200px;
+    text-align: left;
+    padding: 20px;
+}
+
+body {
+    margin: 0 auto;
+}
+img{
+    width: 98px;
+    height: 84px;
+}
+
+.pForm{
+    margin: 0 auto;
+}
+
+form{
+    margin-top: 10px;
+}
+
+#schItem {
+    visibility: hidden;
+}
+
+#fWorldstate {
+    visibility: hidden;
+}
+
