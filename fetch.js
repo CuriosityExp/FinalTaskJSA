@@ -415,7 +415,7 @@ async function weaponData(){
 
     iname = data.name;
     cat = data.category;
-    wtype = data.type;
+    wtype = data.totalDamage;
     bt = data.buildTime / 3600;
     image = data.imageName;
     //drp = data.drops;
@@ -435,7 +435,7 @@ async function weaponData(){
     hName.innerHTML = iname;
     himg.src = `https://cdn.warframestat.us/img/${image}`;
     hcat.innerHTML = `Category: ${cat}`;
-    hwtype.innerHTML = `Type: ${wtype}`;
+    hwtype.innerHTML = `Total damage: ${wtype}`;
     hbt.innerHTML = `Building time: ${bt} hour`
 
     nodeDiv.appendChild(content);
