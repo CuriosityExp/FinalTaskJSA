@@ -434,9 +434,9 @@ async function weaponData(){
 
     hName.innerHTML = iname;
     himg.src = `https://cdn.warframestat.us/img/${image}`;
-    hcat.innerHTML = cat;
-    hwtype.innerHTML = wtype;
-    hbt.innerHTML = `${bt} hour`
+    hcat.innerHTML = `Category: ${cat}`;
+    hwtype.innerHTML = `Type: ${wtype}`;
+    hbt.innerHTML = `Building time: ${bt} hour`
 
     nodeDiv.appendChild(content);
     content.appendChild(hName);
